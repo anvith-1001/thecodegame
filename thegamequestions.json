@@ -1,0 +1,289 @@
+[{
+  "_id": {
+    "$oid": "69091e3352d8c091a2a1ca4b"
+  },
+  "id": "ch1",
+  "topic": "loops",
+  "question": "What will be the output of this code?\nfor i in range(3): print(i)",
+  "options": [
+    "0 1 2",
+    "1 2 3",
+    "0 1 2 3",
+    "Error"
+  ],
+  "correct_answer": "0 1 2",
+  "explanation": "range(3) produces 0, 1, 2.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091e3352d8c091a2a1ca4c"
+  },
+  "id": "ch2",
+  "topic": "strings",
+  "question": "What is the result of 'hello'[::-1]?",
+  "options": [
+    "olleh",
+    "hello",
+    "Error",
+    "None"
+  ],
+  "correct_answer": "olleh",
+  "explanation": "The slice[::-1] reverses the string.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca4e"
+  },
+  "id": "ch1",
+  "topic": "loops",
+  "question": "What will be the output of this code?\nfor i in range(3): print(i, end=' ')",
+  "options": [
+    "0 1 2",
+    "1 2 3",
+    "0 1 2 3",
+    "Error"
+  ],
+  "correct_answer": "0 1 2",
+  "explanation": "range(3) generates 0, 1, 2 and prints them with spaces.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca4f"
+  },
+  "id": "ch2",
+  "topic": "strings",
+  "question": "What is the result of 'hello'[::-1]?",
+  "options": [
+    "olleh",
+    "hello",
+    "Error",
+    "None"
+  ],
+  "correct_answer": "olleh",
+  "explanation": "The slice[::-1] reverses the string.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca50"
+  },
+  "id": "ch3",
+  "topic": "lists",
+  "question": "What does this code print?\nnums = [1, 2, 3]\nnums.append([4,5])\nprint(len(nums))",
+  "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "correct_answer": "4",
+  "explanation": "The list now has 4 elements because [4,5] is appended as a single element.",
+  "difficulty": "medium"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca51"
+  },
+  "id": "ch4",
+  "topic": "conditionals",
+  "question": "What will this code output?\nx = 5\ny = 10\nif x > y:\n    print('A')\nelse:\n    print('B')",
+  "options": [
+    "A",
+    "B",
+    "A B",
+    "Error"
+  ],
+  "correct_answer": "B",
+  "explanation": "Since 5 is not greater than 10, the else block runs.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca52"
+  },
+  "id": "ch5",
+  "topic": "loops",
+  "question": "How many times will this loop run?\nfor i in range(2, 10, 2):\n    print(i)",
+  "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+  ],
+  "correct_answer": "4",
+  "explanation": "range(2,10,2) gives [2,4,6,8], so 4 iterations.",
+  "difficulty": "medium"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca53"
+  },
+  "id": "ch6",
+  "topic": "strings",
+  "question": "What does 'Python'.lower().replace('p','P') return?",
+  "options": [
+    "Python",
+    "python",
+    "PythoN",
+    "Ppython"
+  ],
+  "correct_answer": "Ppython",
+  "explanation": "lower() → 'python', then replace lowercase 'p' with uppercase 'P'.",
+  "difficulty": "medium"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca54"
+  },
+  "id": "ch7",
+  "topic": "lists",
+  "question": "What is the output of this code?\nnums = [1,2,3,4]\nprint(nums[1:-1])",
+  "options": [
+    "[2, 3]",
+    "[1, 2, 3]",
+    "[1, 2, 3, 4]",
+    "[2, 3, 4]"
+  ],
+  "correct_answer": "[2, 3]",
+  "explanation": "nums[1:-1] slices from index 1 to second-last index.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca55"
+  },
+  "id": "ch8",
+  "topic": "conditionals",
+  "question": "What will this print?\nvalue = 0\nif value:\n    print('True')\nelse:\n    print('False')",
+  "options": [
+    "True",
+    "False",
+    "0",
+    "None"
+  ],
+  "correct_answer": "False",
+  "explanation": "0 is considered False in Python.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca56"
+  },
+  "id": "ch9",
+  "topic": "loops",
+  "question": "What does this print?\nfor i in range(3):\n    for j in range(2):\n        print(i, j)",
+  "options": [
+    "6 pairs",
+    "3 pairs",
+    "2 pairs",
+    "Error"
+  ],
+  "correct_answer": "6 pairs",
+  "explanation": "3×2 = 6 iterations of the inner loop.",
+  "difficulty": "medium"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca57"
+  },
+  "id": "ch10",
+  "topic": "functions",
+  "question": "What does this return?\ndef add(a, b=2):\n    return a + b\n\nprint(add(3))",
+  "options": [
+    "3",
+    "5",
+    "6",
+    "Error"
+  ],
+  "correct_answer": "5",
+  "explanation": "b has a default value of 2, so add(3) → 3+2.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca58"
+  },
+  "id": "ch11",
+  "topic": "functions",
+  "question": "What will happen?\ndef func(x=[]):\n    x.append(1)\n    print(x)\nfunc()\nfunc()",
+  "options": [
+    "[1] [1]",
+    "[1] [1, 1]",
+    "Error",
+    "[1, 1] [1, 1]"
+  ],
+  "correct_answer": "[1] [1, 1]",
+  "explanation": "Default mutable arguments persist between calls.",
+  "difficulty": "hard"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca59"
+  },
+  "id": "ch12",
+  "topic": "data types",
+  "question": "What is the output of type([]) == list?",
+  "options": [
+    "True",
+    "False",
+    "list",
+    "Error"
+  ],
+  "correct_answer": "True",
+  "explanation": "type([]) returns <class 'list'>, so it equals list.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca5a"
+  },
+  "id": "ch13",
+  "topic": "operators",
+  "question": "What will this output?\nprint(5 // 2)",
+  "options": [
+    "2.5",
+    "2",
+    "3",
+    "Error"
+  ],
+  "correct_answer": "2",
+  "explanation": "// is floor division — it truncates to the nearest integer.",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca5b"
+  },
+  "id": "ch14",
+  "topic": "strings",
+  "question": "What does this return?\nprint(' '.join(['Hello', 'World']))",
+  "options": [
+    "HelloWorld",
+    "Hello World",
+    "['Hello', 'World']",
+    "Error"
+  ],
+  "correct_answer": "Hello World",
+  "explanation": "join() joins elements with the given separator (a space).",
+  "difficulty": "easy"
+},
+{
+  "_id": {
+    "$oid": "69091fb452d8c091a2a1ca5c"
+  },
+  "id": "ch15",
+  "topic": "loops",
+  "question": "What is printed?\nfor i in range(1, 5):\n    if i == 3:\n        break\n    print(i)",
+  "options": [
+    "1 2",
+    "1 2 3",
+    "1 2 3 4",
+    "Error"
+  ],
+  "correct_answer": "1 2",
+  "explanation": "Loop breaks when i == 3, so 1 and 2 are printed.",
+  "difficulty": "medium"
+}]
