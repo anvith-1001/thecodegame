@@ -7,6 +7,7 @@
 
 # how to run 
 * download the project
+* add thegamequestions.json to your local mongoDB
 * navigate to backend directory ( cd backend )
 * start uvicorn server at backend directory ( uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload )
 
